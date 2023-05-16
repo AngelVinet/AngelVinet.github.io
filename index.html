@@ -37,16 +37,19 @@
             </a>
             <ul class="navbar-nav d-flex justify-content-center align-items-center">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Sobre Mí</a>
+                <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre Mí</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Proyectos</a>
+                <a class="nav-link" href="#proyectos">Proyectos</a>
               </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#certificados">Cerificados</a>
+              </li>-->
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#testimonios">Testimonios</a>
+              </li>-->
               <li class="nav-item">
-                <a class="nav-link" href="#">Cursos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
@@ -66,7 +69,7 @@
     </section>
     <!--Fin sección hero-->
     <!-- Sobre mí -->
-    <section class="sobre-mi seccion-oscura">
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
       <div class="contenedor">
         <h2 class="seccion-titulo texto-blanco">Sobre mí</h2>
         <p class="seccion-texto">Me titulé a principio del año 2022 de la Carrera de Técnico nivel superior en Analista Programador 
@@ -118,7 +121,7 @@
     </section>
     <!--Fin area de conocimento-->
     <!-- Proyectos -->
-    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
       <h2 class="seccion-titulo texto-negro">Proyectos Recientes</h2>
       <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente</h3>
       <!-- Galeria de proyectos -->
@@ -202,12 +205,47 @@
     </section> -->
     <!-- Fin Testimonios -->
     <!-- Contacto -->
-    <section>
-      <div class="contacto">
-        <p class=""></p>
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contactame para hacer tu proyectos de desarrollo Web o de Escritorio realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:angelvinettrabajados@gmail.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- Fin Contacto -->
+    <!-- Footer -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img src="img/icono.png" alt="Icono de portafolio" class="footer-logo">
+      <p class="footer-texto text-center">Aprendo y luego desarrollo todos los dias.<br/>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://www.linkedin.com/in/angel-vinet" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://github.com/AngelVinet" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="mailto:angelvinettrabajados@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope-at"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Angel Vinet (2023) &#169;</div>
+    </footer>
+    <!-- Fin footer -->
     <!--Enlace Boostrap js-->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> 
    <!--Enlace SwiperJs-->
