@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Angel Vinet">
+    <meta name="description" content="Portafolio de proyectos de Angel Vinet">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React, C#, .Net Core, Api Rest, BackEnd">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--SwiperJs-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!--Archivos CSS-->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@700&display=swap" rel="stylesheet">
+    <!--Titulo-->
+    <title>Angel Vinet | Portafolio</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/icono.png">
+</head>
+<body>
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toogler" aria-controls="#navbar-toogler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toogler">
+            <a class="navbar-brand" href="#">
+                <img src="img/icono.png" width="50" alt="Logo del Portafolio">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sobre Mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--Fin Barra de navegacion-->
+    <!--Sección hero-->
+    <section class="hero align-items-stech">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="img/programer_icon1.png" alt="Imagen representativa de un programador">
+        <h1>Hola, soy Angel Vinet</h1>
+        <h2>Desarrollador Web y de Escritorio.</h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="img/img-principal.png" alt="Representación de un programador, logos de HTML, CSS, JavaScript, Python, C#, .Net Core, Java, React, SQL">
+      </div>
+    </section>
+    <!--Fin sección hero-->
+    <!-- Sobre mí -->
+    <section class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo texto-blanco">Sobre mí</h2>
+        <p class="seccion-texto">Me titulé a principio del año 2022 de la Carrera de Técnico nivel superior en Analista Programador 
+          Computacional en el Instituto Profesional Duoc UC, desde entonces he realizado cursos en diferentes 
+          herramientas de desarrollo web como son: .Net Core, Angular, React, WordPress, etc. </br>
+          Soy principalmente un desarrollador Back End en búsqueda constante de potenciar mis habilidades 
+          de forma autodidacta para poder avanzar a un perfil de desarrollador Full Stack.
+          </p>
+      </div>
+    </section>
+    <!-- Fin sobre mi -->
+    <!--Areas de conocimientos-->
+    <section class="area seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-globe"></i>
+            <p class="area-conocimiento">Desarrollo de Páginas Web</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+              <span class="badge text-bg-primary">PHP</span>
+            </div>
+          </div>
+          <!-- Desarrollo de escritorio -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-keyboard-fill"></i>
+            <p class="area-conocimiento">Desarrollo de Escritorio</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">C#</span>
+              <span class="badge text-bg-primary">WPF</span>
+              <span class="badge text-bg-primary">Python</span>
+            </div>
+          </div>
+          <!-- Desarrollo de Api Rest -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-database-fill"></i>
+            <p class="area-conocimiento">Desarrollo de Api Rest</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">C#</span>
+              <span class="badge text-bg-primary">NET CORE 5 & 7</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Fin area de conocimento-->
+    <!-- Proyectos -->
+    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Proyectos Recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente</h3>
+      <!-- Galeria de proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/proyecto-alkemy-csharp-netcore.jpg" alt="Proyecto Aceleración en plataforma alkemy en lenguaje C# .Net Core 5.0">
+              <div class="overlay">
+                <p>Proyecto Aceleración Alkemy C#</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/AngelVinet/MuestraProyecto-NetAlkemy" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <!-- Galeria en construcción -->
+                  <!--<a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-images"></i>
+                  </a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/AngelVinet" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos<i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+    <!-- Fin proyectos -->
+    <!-- Conocimientos -->
+    <!-- Fin Conocimientos -->
+    <!-- Certificados (En construcción)-->
+    <!-- Fin Certificados -->
+    <!-- Testimonios (Proximamente)-->
+    <!-- <section class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes....</h3>
+      /*Carrusel testimonio*/
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="img/pc-programer.png" alt="fsdsa">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, </p>
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">cargo 1</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="img/programer_icon2.png" alt="fsdsa">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, </p>
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">cargo 1</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="img/pc-programer.png" alt="fsdsa">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, </p>
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">cargo 1</p>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section> -->
+    <!-- Fin Testimonios -->
+    <!-- Contacto -->
+    <section>
+      <div class="contacto">
+        <p class=""></p>
+      </div>
+    </section>
+    <!-- Fin Contacto -->
+    <!--Enlace Boostrap js-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> 
+   <!--Enlace SwiperJs-->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   <!--Enlace js-->
+   <script src="app.js"></script>
+</body>
+</html>
